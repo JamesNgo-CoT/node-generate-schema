@@ -1,0 +1,24 @@
+{
+  "name": "node-generate-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesNgo-CoT/node-generate-schema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesNgo-CoT/node-generate-schema/issues"
+  },
+  "homepage": "https://github.com/JamesNgo-CoT/node-generate-schema#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "node-https-request": "git+https://github.com/JamesNgo-CoT/node-https-request.git#1.0.0"
+  }
+}
