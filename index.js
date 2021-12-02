@@ -79,8 +79,6 @@ function generateProperties(metadata, entityType) {
 
 	if (entityObject) {
 		return Object.keys(entityObject).filter((property) => property.indexOf('$') !== 0).reduce((acc, cur) => {
-			console.log(cur);
-
 			const propertyObject = entityObject[cur];
 
 			if (types[propertyObject.$Type]) {
